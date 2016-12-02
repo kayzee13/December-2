@@ -27,3 +27,14 @@ body{
 	color: #FFF;
 	background-color: hsla(195, 70%, 46%, 1.0);
 }
+
+@media screen and (min-width: 500px){
+	.row{
+		flex-direction: row;
+		background-color: #EF9EAD;
+	}
+	.col{
+		color: #FFF;
+		background-color: hsla(195, 70%, 46%, 1.0);
+	}
+}
